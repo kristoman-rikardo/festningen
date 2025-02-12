@@ -1,0 +1,85 @@
+.vfrc-button[label="Start new chat"] {
+    color: transparent;
+    position: relative;
+  }
+  .vfrc-button[label="Start new chat"]::after {
+    content: "Your content";
+    align-items: center;
+    justify-content: center;
+    inset: 0;
+    position: absolute;
+    display: flex;
+    color: #fff;
+    transform: translateX(-0%);
+  }
+  .vfrc-button[label="Cancel"] {
+    color: transparent;
+    position: relative;
+  }
+  .vfrc-button[label="Cancel"]::after {
+    content: "Your content";
+    align-items: center;
+    justify-content: center;
+    inset: 0;
+    position: absolute;
+    display: flex;
+    color: #323232;
+  }
+
+  .vfrc-chat {
+    box-shadow: 0px 0px 15px 5px rgba(91, 222, 119, 0.144);
+}
+
+  .vfrc-message {
+    border-radius: 7.5px;
+    box-shadow: inset 0px 4px 8px rgba(34, 41, 36, 0.176), 
+                0px 4px 8px rgba(34, 41, 36, 0.2); /* Outer shadow */
+}
+
+  .vfrc-header--title {
+    color: #ffffff;
+    transform: translate(10%, 30%);
+    font-size: 1.5em;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+  }
+
+  .vfrc-assistant-info--title {
+    opacity: 0;
+    display: none;
+  }
+  
+  .vfrc-header {
+    background-image: url("https://img.freepik.com/premium-photo/panoramic-red-brick-wall-pattern-texture-background-wide-panorama-masonry_105428-4206.jpg");
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .wfg6590 {
+    border-radius: 0%;
+    box-shadow: none;
+  }
+
+  .vfrc-header .wfg6590 { 
+    border-radius: 0%;
+    transform: scale(1.5) translateY(2.5px);
+    box-shadow: none;
+}
+
+  
+  .vfrc-assistant-info .wfg6590 {
+    border-radius: 0%;
+    box-shadow: none;
+    transform: scale(1.25)
+  }
+ 
+  ._1bvgniik img {
+    transform: scale(1.6);
+  }
+
+  ._1kklh6j1:focus-within ._1kklh6j4 {
+    opacity: 0 !important;
+  }
+
+
+  
