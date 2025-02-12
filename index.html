@@ -219,7 +219,8 @@ let script = document.createElement("script");
         url: 'https://general-runtime.voiceflow.com',
         versionID: 'production',
         assistant: {
-            extensions: [FormExtension]
+            extensions: [FormExtension],
+            stylesheet: "https://kristoman-rikardo.github.io/festningen/style.css"
         },
         launch: {
             event: { type: "launch", payload: { browser_url: window.location.href } }
